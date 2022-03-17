@@ -53,6 +53,7 @@ body > main {
 main > div {
     width: 45%;
     float: left;
+    padding-right: 10%;
 }
 
 div > h1 {
@@ -67,6 +68,8 @@ div > a {
 
 main > img {
     width: 55%;
-    height: 300px;
+    height: 400px;
     float: left;
+    object-fit: contain;
+    object-position: center;
 }
